@@ -17,6 +17,7 @@ body {
 .humberger {
   display: none;
   user-select: none;
+  z-index: 1000;
 }
 
 /* .show {
@@ -310,6 +311,7 @@ h3 {
   transition: opacity 1s, transform 1s;
   font-weight: 100;
   position: relative;
+  z-index: -100;
 }
 
 h3.appear {
