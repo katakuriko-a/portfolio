@@ -20,17 +20,7 @@ body {
   z-index: 1000;
 }
 
-/* .show {
-  display: block;
-  background: #fff;
-} */
-
-/* .lishow{
-  list-style: none;
-  text-decoration: none;
-  margin-bottom: 100px;
-} */
-
+/* メディアクエリ */
 @media (min-width:719px) {
   .prf img {
     margin-right: 40px;
@@ -46,7 +36,10 @@ h2.ttl {
 
 }
 @media (max-width:600px) {
-
+  
+  h3 {
+    position: relative;
+  }
 
   .mainv{
     height: 600px;
@@ -94,6 +87,9 @@ h2.ttl {
     text-align: center;
   }
 }
+
+/* ヘッダー */
+
 header {
   top: 0;
   left: 0;
@@ -105,7 +101,6 @@ header {
 }
 
 
-/* ヘッダー */
 .logo {
   font-size: 20px;
   line-height: 64px;
