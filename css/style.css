@@ -45,7 +45,7 @@ h2.ttl {
     height: 600px;
   }
 
-  .humberger #close {
+  #close {
     position: absolute;
     top: 16px;
     right: 16px;
@@ -82,9 +82,24 @@ h2.ttl {
     color: #333;
     display: block;
     font-size: 16px;
+
+  }
+  .menu-ul {
+    padding: 0;
+  }
+
+  .menu-li {
+    list-style: none;
+  }
+  .menu-a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    display: block;
     margin-bottom: 100px;
     margin-top: 100px;
     text-align: center;
+
   }
 }
 
