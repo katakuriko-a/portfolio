@@ -36,10 +36,6 @@ h2.ttl {
 
 }
 @media (max-width:600px) {
-  
-  h3 {
-    position: relative;
-  }
 
   .mainv{
     height: 600px;
@@ -321,20 +317,12 @@ h3 {
   transition: opacity 1s, transform 1s;
   font-weight: 100;
   position: relative;
-  z-index: -100;
 }
 
 h3.appear {
   opacity: 1;
   transform: translateY(0px);
-  transform: translateZ(1px);
 }
-
-
-
-  .hidden {
-    display: none;
-  }
 
 
 

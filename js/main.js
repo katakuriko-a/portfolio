@@ -42,19 +42,12 @@
 
   function sidebar() {
     humberger.classList.remove('show');
-    // humberger.li.classList.remove('show');
     humberger.classList.add('humberger');
   }
 
   menu.addEventListener('click', () => {
     humberger.classList.add('show');
-    // humberger.li.classList.add('show')
     humberger.classList.remove('humberger');
-    targets.forEach(target => {
-      // classList.add('hidden');
-    });
-
-
     
   });
 
