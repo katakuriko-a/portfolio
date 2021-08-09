@@ -1,4 +1,4 @@
-
+/* マウスストーカー */
 #stalker {
   width: 16px;
   height: 16px;
@@ -31,7 +31,7 @@
 #clk.hov_{
   display: block;
 }
-
+/* マウスストーカー */
 
 body {
   font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
@@ -88,6 +88,12 @@ h2.ttl {
     top: 16px;
     right: 16px;
     font-size: 32px;
+  }
+  #stalker{
+    display: none;
+  }
+  #clk.hov_{
+    display: none;
   }
   nav {
     display: none;
